@@ -126,6 +126,15 @@
       <a-text id="Text200" value="Ą test ńka z żź" font="Roboto-msdf.json" font-image="Roboto-msdf.png" negate="false" align="center" color="#FFF" visible="false" position="0 0.132 0.550"
               geometry="primitive: plane; width: 1.75" material="color: #333"></a-text>
       </a-plane>
+
+          <a-entity link="href: https://l0de-dl.github.io/scena4/; title: My Homepage; image: #homeThumbnail">
+            <a-plane src="#hotspot-image2" position="-5.051 2.482 4.176" rotation="4.828 135.024 0.425" transparent="true"
+                event-set__enter="_event: mouseenter; _target: #Text202; visible: true"
+                event-set__leave="_event: mouseleave; _target: #Text202; visible: false"> 
+      <a-text id="Text202" value="Ą test ńka z żź" font="Roboto-msdf.json" font-image="Roboto-msdf.png" negate="false" align="center" color="#FFF" visible="false" position="0.017 0.017 0.550"
+              geometry="primitive: plane; width: 1.75" material="color: #333"></a-text>
+      </a-plane>
+    </a-entity>
       
     </a-scene>
 
@@ -166,6 +175,7 @@
     </script>
   </body>
 </html>
+
 
 
 
